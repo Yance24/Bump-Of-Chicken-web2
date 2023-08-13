@@ -40,7 +40,7 @@ body {
 }
 
 #background-header{
-    background-image: url('Bump-Of-Chicken-web2/img/background-home.jpg');
+    background-image: url('/Bump-Of-Chicken-web2/img/background-home.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,7 +97,7 @@ body {
     /* left: 50px;
     top: 75px; */
     z-index: -1;
-    background-image: url('Bump-Of-Chicken-web2/img/color-splash2.jpg');
+    background-image: url('/Bump-Of-Chicken-web2/img/color-splash2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -110,7 +110,7 @@ body {
     /* border: 1px solid black; */
     left: 50px;
     top: 75px;
-    background-image: url('Bump-Of-Chicken-web2/img/bumpofchicken.jpg');
+    background-image: url('/Bump-Of-Chicken-web2/img/bumpofchicken.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     /* box-shadow: 0px 5px 4px 0px rgba(48,48,48,0.3); */
@@ -173,7 +173,7 @@ body {
 #background-news{
     position: fixed;
     float: left;
-    background-image: url('Bump-Of-Chicken-web2/img/color-splash3.jpg');
+    background-image: url('/Bump-Of-Chicken-web2/img/color-splash3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.6;
@@ -229,7 +229,7 @@ body {
 #background-disco{
     position: fixed;
     float: left;
-    background-image: url('Bump-Of-Chicken-web2/img/color-splash5.jpg');
+    background-image: url('/Bump-Of-Chicken-web2/img/color-splash5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 150px;
@@ -409,7 +409,7 @@ body {
 #background-store{
     position: fixed;
     float: left;
-    background-image: url('Bump-Of-Chicken-web2/img/color-splash7.jpg');
+    background-image: url('/Bump-Of-Chicken-web2/img/color-splash7.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.6;
