@@ -1,0 +1,419 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+
+}
+
+#row{
+    display:inline;
+}
+
+#menu-header{
+    font-family: 'Inria-Serif Narrow';
+    
+}
+
+#main-content{
+    box-shadow: 0px 6px 10px 0px rgba(48,48,48,0.3);
+    margin-left: 200px;
+    width: 50%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.95);
+}
+
+#header-text{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#background-header{
+    background-image: url('/img/background-home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    float: left;
+    right: 10%;
+    top: 10%;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+#mainmenu-header{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    z-index: 7;
+}
+
+#home-news{
+    margin-top: 40px;
+    border: 1px solid black;
+    width:500px;
+    height: 89px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#home-news-text{
+    font-family: Inria-Serif;
+    margin-left: 5;
+    margin-top: 6;
+    font-size: 15px;
+    font-weight: 500;
+    height: 50px;
+}
+
+#home-news-date{
+    font-family: Inria-Serif;
+    margin-left: 5;
+    margin-top: 5;
+    font-size: 14px;
+    color: #ABA5A5;
+}
+
+#background-profile{
+    position: fixed;
+    float: left;
+    width: 700px;
+    height: 700px;
+    /* border: 1px solid black; */
+    /* left: 50px;
+    top: 75px; */
+    z-index: -1;
+    background-image: url('/img/color-splash2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#profile-picture{
+    position: fixed;
+    float: left;
+    width: 500px;
+    height: 500px;
+    /* border: 1px solid black; */
+    left: 50px;
+    top: 75px;
+    background-image: url('/img/bumpofchicken.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: 0px 5px 4px 0px rgba(48,48,48,0.3); */
+    opacity: 0.85;
+}
+
+#profile-card{
+    width: 440px;
+    height: 300px;
+    /* border: 1px solid black; */
+    cursor: default;
+}
+
+#name-container{
+    /* border: 1px solid black; */
+    width: fit-content;
+    height: 75px;
+    margin-left: 3px;
+    margin-top: 2px;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+#name{
+    font-family: Inria-Serif;
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+}
+
+#band-pos{
+    font-family: Inria-Serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ABA5A5;
+    float: right;
+    margin-top: 1px;
+}
+
+#photo-card{
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid black; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 10px;
+    box-shadow: 0px 5px 4px 0px rgba(48,48,48,0.3);
+    float: left;
+}
+
+#info-card{
+    width: fit-content;
+    height: 140px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 25px;
+}
+
+#background-news{
+    position: fixed;
+    float: left;
+    background-image: url('/img/color-splash3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    width: 80%;
+    height: 100vh;
+    z-index: -1;
+}
+
+#news-container{
+    width: 80%;
+    height: 1000px;
+    /* border: 1px solid black; */
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+#news-frame{
+    width: 45%;
+    height: 500px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+#news-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 471px;
+    height: 353px;
+    box-shadow: 0px 5px 6px 0px rgba(48,48,48,0.3);
+    /* border: 1px solid black; */
+
+}
+
+#news-text{
+    font-family: Inria-Serif;
+    margin-left: 5;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    height: 50px;
+}
+
+#news-date{
+    font-family: Inria-Serif;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ABA5A5;
+}
+
+#background-disco{
+    position: fixed;
+    float: left;
+    background-image: url('/img/color-splash5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    opacity: 0.6;
+    width: 80%;
+    height: 100vh;
+    z-index: -1;
+}
+
+#menu-disco{
+    width: 71%;
+    height: 180px;
+    /* border: 1px solid black; */
+    background-color: white;
+    float: left;
+    padding-top: 30px;
+    padding-left: 50px;
+    position: fixed;
+}
+#submenu-container{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #ABA5A5;
+    margin-top: 8px;
+    display: inline-block;
+    /* border: 1px solid black; */
+}
+
+#submenu-container div{
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Arial Narrow';
+    font-size: 20px;
+    float: left;
+    cursor: pointer;
+    font-weight: 500;
+    border-bottom: 0px solid black;
+    /* border: 1px solid black; */
+}
+
+#submenu-container div.active{
+    border-bottom: 1px solid black;
+    font-weight: 600;
+}
+
+#disco-container-all{
+    width: 80%;
+    height: 1000px;
+    padding-left: 50px;
+    margin-top: 200px;
+    float: left;
+    display: none;
+    /* border: 1px solid black;; */
+}
+
+#disco-container-single{
+    width: 80%;
+    height: 1000px;
+    padding-left: 50px;
+    margin-top: 200px;
+    float: left;
+    display: none;
+    /* border: 1px solid black;; */
+}
+
+#disco-container-album{
+    width: 80%;
+    height: 1000px;
+    padding-left: 50px;
+    margin-top: 200px;
+    float: left;
+    display: none;
+    /* border: 1px solid black;; */
+}
+
+#disco-container-other{
+    width: 80%;
+    height: 1000px;
+    padding-left: 50px;
+    margin-top: 200px;
+    float: left;
+    display: none;
+    /* border: 1px solid black;; */
+}
+
+.song-container{
+    width: 280px;
+    height: 330px;
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 0px 6px 8px 0px rgba(48,48,48,0.3);
+    /* border: 1px solid black; */
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.song-pic{
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 3px 3px 0px rgba(48,48,48,0.3);
+    margin-top: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.song-text{
+    /* border: 1px solid black; */
+    width: 250px;
+    height: fit-content;
+    margin-top: 8px;
+    font-size: 18px;
+    font-family: 'Arial Narrow';
+    font-weight: 600;
+}
+
+#store-container{
+    width: 80%;
+    height: 1000px;
+    /* border: 1px solid black; */
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+#item-container{
+    width: 300px;
+    height: 370px;
+    float: left;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 6px 10px 0px rgba(48,48,48,0.3);
+    background-color: rgba(255,255,255,0.6);
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+#item-pic{
+    box-shadow: 0px 5px 4px 0px rgba(48,48,48,0.3);
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#item-name{
+    width: 100%;
+    height: fit-content;
+    margin-top: 10px;
+    font-family: "Arial Narrow";
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#item-price{
+    width: 100%;
+    height: fit-content;
+    margin-top: 5px;
+    font-family: "Arial Narrow";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #ABA5A5;
+}
+
+#background-store{
+    position: fixed;
+    float: left;
+    background-image: url('/img/color-splash7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    width: 80%;
+    height: 100vh;
+    z-index: -1;
+}
