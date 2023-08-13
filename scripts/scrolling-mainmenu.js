@@ -1,4 +1,4 @@
-const tes = ['../img/boc-logo-circ.png','../img/silver-jubilee.jpg','../img/boc-header.jpg','../img/boc-tour.png','../img/boc-answer.png'];
+const tes = ['img/boc-logo-circ.png','img/silver-jubilee.jpg','img/boc-header.jpg','img/boc-tour.png','img/boc-answer.png'];
 let index = 0;
 const background = document.getElementById("mainmenu-header");
 var Opacity = 1;
